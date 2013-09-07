@@ -9,12 +9,22 @@ the author says that floated boxes aren't in the normal flow
 of the document, block boxes in regular flow behave as if the floated box wasn't there.
 
 float1.html is about this. The box2 just disappeared when you float box1.
-Try to delete the ``float:left`` line.
+Try to delete the ``float:left`` line to see the difference. 
 
 
 
 float2.html
 ------------
 However, this is not strictly true as the book has mentioned,
-For textural content(img, lines), they just float around the floated elements.
-Try delete the ``float:left`` line.
+For textural content(img, lines), they just flowing around the floated elements.
+Try to delete the ``float:left`` line to see the difference. 
+
+
+float3.html
+------------
+clear property demo.
+
+
+float4.html
+-----------
+clear floats using CSS-generated content.
