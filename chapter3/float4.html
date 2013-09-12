@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0px;
+                padding:0px;
+            }
+            #box1 {
+                float:left;
+            }
+            .clear:after {
+                content:".";
+                height:0;
+                visibility:hidden;
+                display:block;
+                clear:both;
+            }
+        </style>
+    </head>
+    <div class="clear">
+        <img id="box1" src="./img/float_img1.jpg">
+        <p>A Good Healthy Life;</p>
+    </div>
+    <p>Another Good Healthy Life;</p>
+</html>
