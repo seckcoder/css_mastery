@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple Background Corner Box</title>
+	<style>
+		.box {
+			width: 20em;
+
+			background-image: url(./img/top-right.gif),  url(./img/bottom-right.gif), url(./img/top-left.gif), url(./img/bottom-left.gif);
+			background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+			background-position: top right, bottom right, top left, bottom left;
+
+			/*the order of img here is different from the 
+			CSSMaster book 2rd Edition. I found that it is 
+			practical to set the smallest img first, otherwise
+			bigger image may cover smaller one*/
+
+		}
+		.box h2, .box p {
+			padding: 1em;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h2>Headline</h2>
+		<p>Content</p>
+	</div>
+</body>
+</html>

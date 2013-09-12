@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border-radius Box</title>
+	<style>
+		.box {
+			width: 20em;
+			border-style: solid;
+			border-radius: 1em;
+			
+		}
+		/*when we add a border to the box, the margin-top Headline and body don't collapse. arrordingly */
+		.box h2, .box p {
+			padding-left: 1em;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h2>Headline</h2>
+		<p>Content</p>
+	</div>
+</body>
+</html>
