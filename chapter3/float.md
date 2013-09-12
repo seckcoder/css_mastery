@@ -4,7 +4,7 @@ Demo for float
 
 float1.html
 ------------
-In css mastery 2nd edition, Page62, on floating models,
+In css mastery 2nd edition, Page62, on floating models, 
 the author says that floated boxes aren't in the normal flow
 of the document, block boxes in regular flow behave as if the floated box wasn't there.
 
