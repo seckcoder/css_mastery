@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0px;
+                padding:0px;
+            }
+            body {
+                width:460px;
+                margin:80px auto;
+                background-color:#62665f;
+                // color:#bbb;
+                color: #fff;
+                font-family: "Varela Round", sans-serif;
+                font-size:100%;
+                line-height:24px;
+            }
+            .clearfix {
+                clear:both;
+            }
+            .box1 span:first-of-type {
+                width:500px;
+                height:100px;
+            }
+
+            .box1 span:nth-of-type(2) {
+                height:100px;
+                width:500px;
+                display:block;
+            }
+
+            .box2 p:first-of-type {
+                width:500px;
+                height:100px;
+            }
+
+            .box2 p:nth-of-type(2) {
+                width:500px;
+                height:100px;
+                display:inline;
+            }
+
+            .box3 p:first-of-type {
+                float:left;
+                width:500px;
+                height:100px;
+            }
+
+            .box3 p:nth-of-type(2) {
+                float:left;
+                width:500px;
+                height:100px;
+                display:inline;
+            }
+            .box4 span:first-of-type {
+                float:left;
+                width:500px;
+                height:100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="box1">
+                <span>We cannot set width/height for inline elements</span>
+                <br>
+                <span>But we can do this when it's displayed as block</span>
+            </div>
+            <div class="box2">
+                <p>We can set width/height for block elements</p>
+                <p>But we cannot do this when it's displayed as inline</p>
+            </div>
+            <div class="box3">
+                <p>We can set width/height for floated block elements</p>
+                <br class="clearfix">
+                <p>We can also do this for floated block elements with display property set as inline</p>
+            </div>
+            <div class="box4">
+                <span>Actually We can set width/height for any floated elements</span>
+            </div>
+        </div>
+    </body>
+</html>
