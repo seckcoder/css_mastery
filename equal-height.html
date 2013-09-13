@@ -15,6 +15,7 @@
             .wrapper {
                 width:100%;
                 overflow:hidden;
+                position:relative;
             }
             .box {
                 width: 250px;
@@ -25,8 +26,16 @@
                 padding-right:20px;
                 padding-top:20px;
                 padding-bottom:520px;
-                margin-bottom:500px;
+                margin-bottom:-500px;
                 background:#89ac10 url(./img/equal-height-top.gif) no-repeat left top;
+            }
+            .bottom {
+                position:absolute;   // relative-absolute model
+                bottom:0;
+                width:290px;
+                height:20px;
+                margin-left:-20px;
+                background:url(./img/equal-height-bottom.gif) #89ac10 bottom left no-repeat;
             }
         </style>
     </head>
