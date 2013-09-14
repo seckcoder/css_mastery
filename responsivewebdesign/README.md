@@ -6,3 +6,5 @@ named [responsive web design](http://alistapart.com/article/responsive-web-desig
 
 A list apart already has the demo hosted [here](http://d.alistapart.com/responsive-web-design/ex/ex-site-mini.html#).
 I tried to implement the demo by myself as an exercise.
+
+Images under ``static`` are all from the original demo.
