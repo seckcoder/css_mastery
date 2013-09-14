@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0px;
+                padding:0px;
+            }
+            .clearfix {
+                clear:both;
+            }
+
+            img {
+                max-width:100%;
+            }
+
+            body {
+                font:normal 100% Helvetica, Arial, sans-serif;
+                background:url("./static/bg.png") repeat left top;
+            }
+            .content {
+                width:100%;
+                background:url("./static/rag.png") repeat-x left top;
+                height:64px;
+            }
+
+            .content .primary {
+                width:1178px;
+                float:right;
+            }
+
+            .content .secondary {
+                width:569px;
+                height:524px;
+                float:left;
+            }
+            .content .secondary 
+            .footer {
+                float:right;
+            }
+
+            #logo {
+                background:url("./static/logo-bg.png") no-repeat 50% top;
+                position:relative;
+                height:50%;
+            }
+            #logo a {
+                width:100%;
+                padding-top:117px;
+                position:absolute;
+                height:162px;
+                text-align:center; // which aligns the image to the center
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="secondary">
+                <h1 id="logo">
+                    <a href="#"><img src="./static/logo.png"></a>
+                </h1>
+                <ul class="nav">
+                    <li><span>THE</span><span>WEBLOGUE</span></li>
+                    <li><span>BACK</span><span>ISSUES</span></li>
+                    <li><span>ABOUT</span><span>OUR PAPER</span></li>
+                </ul>
+            </div>
+
+            <div class="primary">
+                <h1>“Give me problems, give me work.”</h1>
+                <p>In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army. Having completed my studies there, I was duly attached to the Fifth Northumberland Fusiliers as Assistant Surgeon. The regiment was stationed in India at the time, and before I could join it, the second Afghan war had broken out. On landing at Bombay, I learned that my corps had advanced through the passes, and was already deep in the enemy’s country.</p>
+                <ul>
+                    <li>
+                        <img src="./static/f-holmes.jpg">
+                        <span>SHERLOCK</span><span>HOLMES</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-watson.jpg">
+                        <span>DR JOHN HEMISH</span><span>WATSON</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-MYCROFT.jpg">
+                        <span>MYCROFT</span><span>HOLMES</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-MORIARTY.jpg">
+                        <span>PROF JAMES</span><span>MORIARTY</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-adler.jpg">
+                        <span>IRENE</span><span>ADLER</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-winter.jpg">
+                        <span>JAMES</span><span>WINTER</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footer">
+                Illustrations by Sidney Paget, words by Sir Arthur Conan Doyle.
+                What remains is by Ethan Marcotte.
+            </div>
+        </div>
+    </body>
+</html>
