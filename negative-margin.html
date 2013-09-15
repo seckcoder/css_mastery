@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0px;
+                padding:0px;
+            }
+            body {
+                width:460px;
+                margin:80px auto;
+                background-color:#62665f;
+                // color:#bbb;
+                color: #fff;
+                font-family: "Varela Round", sans-serif;
+                font-size:100%;
+                line-height:1.5;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                line-height:1.2;
+            }
+
+            .static,.float {
+                width:100%;
+                border:1px solid yellow;
+            }
+            .box1 {
+                width:200px;
+                height:200px;
+                border:1px solid blue;
+                margin:0px auto;
+            }
+            .box2 {
+                border:1px solid red;
+                width:200px;
+                height:200px;
+                margin:0px auto 0px;
+            }
+            .box3 {
+                border:1px solid white;
+                width:200px;
+                height:200px;
+                margin:0px auto;
+            }
+
+            .float {
+                margin-top:20px;
+            }
+
+            .float:after {
+                content:".";
+                display:block;
+                height:0;
+                visibility:hidden;
+                clear:both;
+            }
+
+            .float .box2 {
+                float:left;
+                margin-right:-20px;
+            }
+            .float .box3 {
+                float:left;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="static">
+            <div class="box1">
+            </div>
+            <div class="box2">
+            </div>
+            <div class="box3">
+            </div>
+        </div>
+        <div class="float">
+            <div class="box1">
+            </div>
+            <div class="box2">
+            </div>
+            <div class="box3">
+            </div>
+
+        </div>
+    </body>
+</html>

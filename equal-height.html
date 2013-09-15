@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0px;
+                padding:0px;
+            }
+
+            body {
+                margin:80px auto;
+                width:1000px;
+            }
+
+            .wrapper {
+                width:100%;
+                overflow:hidden;
+                position:relative;
+            }
+            .box {
+                width: 250px;
+                margin-left:20px;
+                float:left;
+                display:inline;
+                padding-left:20px;
+                padding-right:20px;
+                padding-top:20px;
+                padding-bottom:520px;
+                margin-bottom:-500px;
+                background:#89ac10 url(./img/equal-height-top.gif) no-repeat left top;
+            }
+            .bottom {
+                position:absolute;   /* relative-absolute model*/
+                bottom:0;
+                width:290px;
+                height:20px;
+                margin-left:-20px;
+                background:url(./img/equal-height-bottom.gif) #89ac10 bottom left no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box">
+                <h1>Andy Budd</h1>
+                <p>Andy is the Managing Director of Clearleft. He also goes by the title of User Experience Director depending what mood he’s in. Andy is the author of CSS Mastery, curates the dConstruct and UX London events and is responsible for Silverbackapp, our low cost usability testing application for the Mac.</p>
+                <div class="bottom"></div>
+            </div>
+            <div class="box">
+                <h1>Richard Rutter</h1>
+                <p>Richard is a founding partner and the production director for Clearleft. He has been designing websites and web applications since the birth of the commercial web, over twelve years ago. Richard leads the user experience team at Clearleft, pioneering innovative approaches to designing fantastic experiences for clients and their customers.</p>
+                <div class="bottom"></div>
+            </div>
+            <div class="box">
+                <h1>Jeremy Keith</h1>
+                <p>Jeremy is a hugely experienced developer specialising in XHTML, CSS, Javascript and PHP-driven solutions. Jeremy is technical director at Clearleft.</p>
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </body>
+</html>

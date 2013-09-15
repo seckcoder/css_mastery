@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0px;
+                padding:0px;
+            }
+            body {
+                font:normal 100% Helvetica, Arial, sans-serif;
+                background:url("./static/bg.png") repeat left top;
+            }
+
+            img {
+                max-width:100%;
+            }
+
+            ul {
+                list-style:none;
+            }
+
+            a {
+                color:#890101;
+                text-decoration:none;
+            }
+
+            a:hover {
+                color:#DF3030;
+            }
+
+           .clearfix {
+                clear:both;
+            }
+
+            .content {
+                width:100%;
+                background:url("./static/rag.png") repeat-x left top;
+                height:64px;
+            }
+
+            .content .primary {
+                width:1178px;
+                float:right;
+            }
+
+            .content .secondary {
+                width:569px;
+                float:left;
+            }
+            .footer {
+                float:right;
+            }
+
+            #logo {
+                background:url("./static/logo-bg.png") no-repeat 50% top;
+            }
+            #logo a {
+                width:100%;
+                padding-top:117px;
+                height:162px;
+                text-align:center; // which aligns the image to the center
+            }
+            ul.nav {
+                margin-top:2m auto 0;
+                text-align:center;
+            }
+            ul.nav li {
+                width:50%;
+                height:33%;
+                padding:0;
+                margin:0;
+                border:0;
+                display:block;
+            }
+            li.first a {
+                border-top:1px solid #FFF9EF;
+            }
+
+            ul.nav a {
+                height:80%;
+                margin:0;
+                display:block;
+                font:bold 14px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
+                background:url("./static/ornament.png") no-repeat 0% 100%;
+            }
+            ul.nav a:hover {
+                background-position:50% 100%;
+            }
+            ul.nav li span {
+                display:block;
+                font:normal 10px Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="secondary">
+                <h1 id="logo">
+                    <a href="#"><img src="./static/logo.png"></a>
+                </h1>
+                <ul class="nav">
+                    <li class="first">
+                    <a href="#"><span>THE</span>WEBLOGUE</a>
+                    </li>
+                    <li><a href="#"><span>BACK</span>ISSUES</a></li>
+                    <li class="last"><a href="#"><span>ABOUT</span>OUR PAPER</a></li>
+                </ul>
+            </div>
+
+            <div class="primary">
+                <h1>“Give me problems, give me work.”</h1>
+                <p>In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army. Having completed my studies there, I was duly attached to the Fifth Northumberland Fusiliers as Assistant Surgeon. The regiment was stationed in India at the time, and before I could join it, the second Afghan war had broken out. On landing at Bombay, I learned that my corps had advanced through the passes, and was already deep in the enemy’s country.</p>
+                <ul>
+                    <li>
+                        <img src="./static/f-holmes.jpg">
+                        <span>SHERLOCK</span><span>HOLMES</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-watson.jpg">
+                        <span>DR JOHN HEMISH</span><span>WATSON</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-MYCROFT.jpg">
+                        <span>MYCROFT</span><span>HOLMES</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-MORIARTY.jpg">
+                        <span>PROF JAMES</span><span>MORIARTY</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-adler.jpg">
+                        <span>IRENE</span><span>ADLER</span>
+                    </li>
+                    <li>
+                        <img src="./static/f-winter.jpg">
+                        <span>JAMES</span><span>WINTER</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footer">
+                Illustrations by Sidney Paget, words by Sir Arthur Conan Doyle.
+                What remains is by Ethan Marcotte.
+            </div>
+        </div>
+    </body>
+</html>

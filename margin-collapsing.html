@@ -21,30 +21,21 @@
                 line-height:1.2;
             }
 
-            .wrapper {
-                width:100%;
-                overflow:hidden;
-                border: thin solid red;
-            }
-
-            .box {
-                float:left;
-                width:200px;
-                height:200px;
-                border:thin solid yellow;
+            #box {
+                margin: 10px;
+                // padding:1px;  // fix by add padding
+                background-color: white;
             }
 
             p {
-                float:left;
+                margin: 20px;
+                background-color: #6699FF;
             }
         </style>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="box">
-            </div>
-            <p>I didn't like the play, but then I saw
-            it under adverse conditions - the curtain was up.</p>
+        <div id="box">
+        <p>This paragraph has a 20px margin.</p>
         </div>
     </body>
 </html>
