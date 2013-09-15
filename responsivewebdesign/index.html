@@ -19,6 +19,15 @@
                 list-style:none;
             }
 
+            a {
+                color:#890101;
+                text-decoration:none;
+            }
+
+            a:hover {
+                color:#DF3030;
+            }
+
            .clearfix {
                 clear:both;
             }
@@ -36,25 +45,50 @@
 
             .content .secondary {
                 width:569px;
-                height:524px;
                 float:left;
             }
-            .content .secondary 
             .footer {
                 float:right;
             }
 
             #logo {
                 background:url("./static/logo-bg.png") no-repeat 50% top;
-                position:relative;
-                height:50%;
             }
             #logo a {
                 width:100%;
                 padding-top:117px;
-                position:absolute;
                 height:162px;
                 text-align:center; // which aligns the image to the center
+            }
+            ul.nav {
+                margin-top:2m auto 0;
+                text-align:center;
+            }
+            ul.nav li {
+                width:50%;
+                height:33%;
+                padding:0;
+                margin:0;
+                border:0;
+                display:block;
+            }
+            li.first a {
+                border-top:1px solid #FFF9EF;
+            }
+
+            ul.nav a {
+                height:80%;
+                margin:0;
+                display:block;
+                font:bold 14px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
+                background:url("./static/ornament.png") no-repeat 0% 100%;
+            }
+            ul.nav a:hover {
+                background-position:50% 100%;
+            }
+            ul.nav li span {
+                display:block;
+                font:normal 10px Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif
             }
         </style>
     </head>
@@ -65,9 +99,11 @@
                     <a href="#"><img src="./static/logo.png"></a>
                 </h1>
                 <ul class="nav">
-                    <li><span>THE</span><span>WEBLOGUE</span></li>
-                    <li><span>BACK</span><span>ISSUES</span></li>
-                    <li><span>ABOUT</span><span>OUR PAPER</span></li>
+                    <li class="first">
+                    <a href="#"><span>THE</span>WEBLOGUE</a>
+                    </li>
+                    <li><a href="#"><span>BACK</span>ISSUES</a></li>
+                    <li class="last"><a href="#"><span>ABOUT</span>OUR PAPER</a></li>
                 </ul>
             </div>
 
